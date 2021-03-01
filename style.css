@@ -1,356 +1,407 @@
-body{
+body {
   background-color: #139913;
   font-family: sans-serif;
 }
 
-#titulo h1{
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  filter: invert();
+}
+
+#titulo h1 {
   text-align: center;
   color: #ffffff;
 }
-#tabuleiro{
+#jogo {
+  float: right;
+}
+
+#jogo h1{
+  color: red;
+}
+
+.jogar{
+  display: block;
+  margin-top: 20px;
+  height: 50px;
+  width: 100px;
+  color: #ffffff;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+#posicoes {
   border: 3px rgb(219, 36, 36) solid;
-  width: 431.5px;
-  height: 429px;
+  width: 550px;
+  height: 500px;
   margin-left: 38.5%;
   margin-top: 150px;
   background-color: #11810e;
   margin-bottom: 100px;
 }
-#youtube{
+
+#posicoes ul {
+  float: left;
+}
+#posicoes li {
+  list-style: none;
+  color: #ffffff;
+  position: relative;
+  padding-block-end: 28px;
+  margin-top: 10px;
+}
+
+#posicoes table {
+  margin-left: 75px;
+  margin-right: 50px;
+
+}
+
+#posicoes td {
+  padding-inline-end: 42px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+  color: #ffffff;
+}
+
+#tabuleiro {
+  border: 3px rgb(219, 36, 36) solid;
+  width: 431.5px;
+  height: 429px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: auto;
+  background-color: #11810e;
+}
+
+#youtube {
   position: absolute;
   float: left;
   top: 280px;
   margin-left: 50px;
 }
-#secao{
+
+#secao {
   position: absolute;
   margin-left: 240px;
   margin-top: 120px;
   display: block;
-  
+
 }
-.branco1{
- 
+
+.branco1 {
+
   width: 50px;
   height: 50px;
   margin-left: 0px;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-  
 }
-.branco1 img{
+
+.branco1 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco2{
-  
+
+.branco2 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco2 img{
+
+.branco2 img {
   width: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco3{
-  
+
+.branco3 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco3 img{
+
+.branco3 img {
   width: 23px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco4{
-  
+
+.branco4 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco4 img{
+
+.branco4 img {
   width: 28px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco21{
-  
+
+.branco21 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco21 img{
+
+.branco21 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco22{
-  
+
+.branco22 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco22 img{
+
+.branco22 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco23{
-  
+
+.branco23 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco23 img{
+
+.branco23 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco24{
-  
+
+.branco24 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco24 img{
+
+.branco24 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco31{
-  
+
+.branco31 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco32{
-  
+
+.branco32 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco33{
-  
+
+.branco33 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco34{
-  
+
+.branco34 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco41{
-  
+
+.branco41 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco42{
-  
+
+.branco42 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco43{
-  
+
+.branco43 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco44{
-  
+
+.branco44 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco51{
-  
+
+.branco51 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco52{
-  
+
+.branco52 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco53{
-  
+
+.branco53 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco54{
-  
+
+.branco54 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco61{
-  
+
+.branco61 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco62{
-  
+
+.branco62 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco63{
-  
+
+.branco63 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco64{
-  
+
+.branco64 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco71{
-  
+
+.branco71 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco71 img{
+
+.branco71 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco72{
-  
+
+.branco72 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco72 img{
+
+.branco72 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco73{
-  
+
+.branco73 {
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -359,14 +410,15 @@ body{
   background-color: white;
 
 }
-.branco73 img{
+
+.branco73 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco74{
-  
+
+.branco74 {
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -375,62 +427,63 @@ body{
   background-color: white;
 
 }
-.branco74 img{
+
+.branco74 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco81{
-  
+
+.branco81 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco81 img{
+
+.branco81 img {
   width: 26px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco82{
-  
+
+.branco82 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco82 img{
+
+.branco82 img {
   width: 22px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco83{
-  
+
+.branco83 {
   width: 50px;
   height: 50px;
   margin-left: 0;
   display: inline-block;
   margin-inline-end: 0;
   background-color: white;
-
 }
-.branco83 img{
+
+.branco83 img {
   width: 26px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.branco84{
-  
+
+.branco84 {
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -438,7 +491,8 @@ body{
   margin-inline-end: 0;
   background-color: white;
 }
-.branco84 img{
+
+.branco84 img {
   width: 30px;
   display: block;
   margin-left: auto;
@@ -448,8 +502,8 @@ body{
 
 
 /* preto */
-.preto1{
- 
+.preto1 {
+
   width: 50px;
   height: 50px;
   margin-left: 0px;
@@ -458,14 +512,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto1 img{
+
+.preto1 img {
   width: 28px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto2{
-  
+
+.preto2 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -474,14 +530,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto2 img{
+
+.preto2 img {
   width: 23px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto3{
-  
+
+.preto3 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -490,14 +548,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto3 img{
+
+.preto3 img {
   width: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto4{
-  
+
+.preto4 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -506,30 +566,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto4 img{
-    width: 35px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.preto21{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
 
-}
-.preto21 img{
+.preto4 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto22{
-  
+
+.preto21 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -538,14 +584,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto22 img{
+
+.preto21 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto23{
-  
+
+.preto22 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -554,14 +602,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto23 img{
+
+.preto22 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto24{
-  
+
+.preto23 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -570,14 +620,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto24 img{
+
+.preto23 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto31{
-  
+
+.preto24 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -586,174 +638,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto32{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
 
-}
-.preto33{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto34{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto41{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto42{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto43{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto44{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto51{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto52{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto53{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto54{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto61{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto62{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto63{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto64{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto71{
-  
-  width: 50px;
-  height: 50px;
-  margin-left: 0;
-  display: inline-block;
-  margin-inline-end: 0;
-  background-color: rgb(0, 0, 0);
-
-}
-.preto71 img{
+.preto24 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto72{
-  
+
+.preto31 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -762,14 +656,192 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto72 img{
+
+.preto32 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto33 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto34 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto41 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto42 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto43 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto44 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto51 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto52 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto53 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto54 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto61 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto62 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto63 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto64 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto71 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto71 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto73{
-  
+
+.preto72 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -778,14 +850,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto73 img{
+
+.preto72 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto74{
-  
+
+.preto73 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -794,14 +868,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto74 img{
+
+.preto73 img {
   width: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto81{
-  
+
+.preto74 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -810,14 +886,34 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto81 img{
+
+.preto74 img {
+  width: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preto81 {
+
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  display: inline-block;
+  margin-inline-end: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.preto81 img {
   width: 28px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto82{
-  
+
+.preto82 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -826,14 +922,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto82 img{
+
+.preto82 img {
   width: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto83{
-  
+
+.preto83 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -842,14 +940,16 @@ body{
   background-color: rgb(0, 0, 0);
 
 }
-.preto83 img{
+
+.preto83 img {
   width: 22px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.preto84{
-  
+
+.preto84 {
+
   width: 50px;
   height: 50px;
   margin-left: 0;
@@ -857,7 +957,8 @@ body{
   margin-inline-end: 0;
   background-color: rgb(0, 0, 0);
 }
-.preto84 img{
+
+.preto84 img {
   width: 26px;
   display: block;
   margin-left: auto;
